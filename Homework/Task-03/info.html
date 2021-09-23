@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset = "UTF-8">
+    <title>Your Information</title>
+</head>
+<body>
+    <form action="/submit_your_info">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for = "fname">First Name*: </label>
+            <input type="text" required><br>
+            <label for = "lname">Last Name*: </label>
+            <input type="text" required><br>
+            <label>Email Address*: </label>
+            <input type="text" required><br>
+            <label>Password input*:</label>
+            <input type="text" required><br>
+            <label>Repeat password*: </label>
+            <input type="text" required><br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Profile Information</legend>
+            Grade Level
+            <input type ="radio" name = "fresh">
+            <label for="fresh" >Freshman</label>
+            <input type ="radio" name = "soph">
+            <label for="soph">Sophmore</label>
+            <input type ="radio" name = "junior">
+            <label for="junior">Junior</label>
+            <input type ="radio" name = "senior">
+            <label for="senior">Senior</label>
+            <input type ="radio" name = "grad">
+            <label for="grad">Graduate</label><br>
+            
+            <label for="music">Favorite Genre of Music (You can select multiple hold command/control + shift and click) *:</label>
+            <select name="music" id="music" required multiple>
+                <option value="rock">rock</option>
+                <option value="hiphop">hip hop</option>
+                <option value="edm">EDM</option>
+                <option value="classical">classical</option>
+            </select><br>
+
+            <label for="wtclan">Favorite member of the Wu Tang Clan*: </label>
+            <select name="wtclan" id="wtclan" required>
+                <option value="select">--Select--</option>
+                <option value="rza">RzA</option>
+                <option value="gza">GzA</option>
+                <option value="oldirty">Ol' Dirty</option>
+                <option value="inspectah">Inspectah Deck</option>
+                <option value="raekwon">Raekwon</option>
+                <option value="ugod">U-God</option>
+                <option value="killah">Ghostface Killah</option>
+                <option value="mathod">Method Man</option>           
+             </select><br>
+
+             <input type="checkbox" name = "spam">
+             <label for="spam">Sign me up for spam emails, because I don't get enough junk email!</label>
+        </fieldset>
+        <label for="submit">* Required</label>
+        <input type="submit" value = "Submit" required>
+    </form>
+</body>
+</html>
