@@ -1,0 +1,19 @@
+p { 
+    color: #333;
+}
+
+header nav li{
+    color: #ff6347;
+}
+
+.am {
+    text-decoration: underline;
+}
+
+span {
+    font-style: italic;
+}
+
+article p:nth-child(2){
+    text-decoration: underline;
+}
