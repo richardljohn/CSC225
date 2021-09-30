@@ -11,6 +11,10 @@ header nav li{
     color: #ff6347;
 }
 
+article p:nth-child(2){
+    text-decoration: underline;
+}
+
 .am {
     text-decoration: underline;
 }
@@ -18,8 +22,3 @@ header nav li{
 span {
     font-style: italic;
 }
-
-article p:nth-child(2){
-    text-decoration: underline;
-}
-
