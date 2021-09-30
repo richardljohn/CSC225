@@ -1,32 +1,52 @@
+/* All paragraphs should be hex color: #333 */
 p { 
     color: #333;
 }
 
+/* The header navigation links’ underline should go away on hover */
 header nav 
 ul li a:hover {
     text-decoration: none;
 }
 
+/* The header navigation links should be hex color: #ff6347 */
 header nav li{
     color: #ff6347;
 }
 
-article p:nth-child(2){
+/* The line “I should be underlined” should be underlined */
+article 
+p:nth-child(2){
     text-decoration: underline;
 }
 
+/* Every instance of the word am should be underlined */
 .am {
     text-decoration: underline;
 }
 
+/* Every instance of the word there should be italic */
 span:not(.am){
     font-style: italic;
 }
 
-footer ul li:first-child { 
+/* 
+The footer navigation links should be vertical (default behavior) and the following should be true:
+The first list item’s bullet should be removed from the last list 
+*/
+footer ul 
+li:first-child { 
     list-style-type: none;
 }
 
-footer ul li:last-child {
+/* The last list item should be bold */
+footer ul 
+li:last-child {
     font-weight: bold;
+}
+
+/* The header navigation should be horizontal (see how good you are :)) */
+header nav 
+ul li{ 
+    display: inline;
 }
