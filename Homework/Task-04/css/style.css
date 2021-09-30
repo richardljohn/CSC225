@@ -19,6 +19,14 @@ article p:nth-child(2){
     text-decoration: underline;
 }
 
-span {
+span:not(.am){
     font-style: italic;
+}
+
+footer ul li:first-child { 
+    list-style-type: none;
+}
+
+footer ul li:last-child {
+    font-weight: bold;
 }
