@@ -1,21 +1,26 @@
-ul {
+ul { 
+    font-family: Arial, Helvetica, sans-serif; 
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #444;
+    padding: 0px;
+    margin: 0px;
 }
 
-li {
+li { 
     float: left;
 }
 
-li a { 
-    display: block;
+li a {
+    display: flex;
     color: white;
-    text-align: center;
-    padding: 15px 30px;
+    align-items: center;
     text-decoration: none;
+    background: lightslategray;
+    padding: 20px 199px;
+    margin: 0px;
+}
+
+li a:hover{
+    color:darkred;
 }
 
 body { 
@@ -28,5 +33,22 @@ fieldset {
     text-align: center;
     margin: auto;
     border-style: none;
-    border-color:blueviolet;
+}
+
+.personal { 
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.contact_me { 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+.personal-info {
+    width: 1000px;
+    text-align: center;
+    border-style: solid;
+    margin: auto;
+    border-color: black;
 }

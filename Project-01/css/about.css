@@ -1,21 +1,26 @@
-ul {
+ul { 
+    font-family: Arial, Helvetica, sans-serif; 
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #444;
+    padding: 0px;
+    margin: 0px;
 }
 
-li {
+li { 
     float: left;
 }
 
-li a { 
-    display: block;
+li a {
+    display: flex;
     color: white;
-    text-align: center;
-    padding: 15px 30px;
+    align-items: center;
     text-decoration: none;
+    background: lightslategray;
+    padding: 20px 199px;
+    margin: 0px;
+}
+
+li a:hover{
+    color:darkred;
 }
 
 body { 
@@ -28,9 +33,9 @@ fieldset {
     text-align: center;
     margin: auto;
     border-style: none;
-    border-color:blueviolet;
 }
 
-p { 
-    font-size: 20px;;
+.about-info { 
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }

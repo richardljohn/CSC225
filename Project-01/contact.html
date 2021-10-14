@@ -23,22 +23,43 @@
     </div>
     <br><br>
     <fieldset>
-    <p>
-        If you are interested in reaching out to me or contacting me please fill out this form. 
-        My inbox is flooded with messages, so I may take some time to reach you, so do not feel 
-        insulted if I am simply ignoring your messages. Thank you.
-    </p>
-        <form action="/" method = "get">
-                <label for = "fname">First Name*:</label>
-                <input type="text" id="fname" required><br><br>
-                <label for = "lname">Last Name*:</label>
-                <input type="text" id="lname" required><br><br>
-                <label for ="email">Email Address*: </label>
-                <input type="text" id = "email" required><br><br>
-                <label for="phone">Phone number: </label>
-                <input type="text" id = "phone"><br><br>
-                <input type="submit" value = "Submit">
-        </form>
+        <br>
+        <img src="images/contact_me.png" alt="contact_me">
+        <p class ="contact_me"> 
+            If you are interested in reaching out to me or contacting me please fill out this form. It can be 
+            whether or not you want to work on a project with me, have a chat, play some games, etc.  
+            My inbox is flooded with messages, so I may take some time to reach out to you, so do not feel 
+            insulted and think I am ignoring your messages, if you do not hear a response back immediately.
+            Most likely I will reach back to you in 3-4 days. Thank you.
+        </p>
     </fieldset>
+    <div>
+        <fieldset class = "personal-info">
+            <legend class = "personal">Personal Information</legend>
+            <form action="/contact.html" method = "GET"><br>
+                    <label for = "fname">First Name*:</label>
+                    <input type="text" id="fname" required><br><br>
+                    <label for = "lname">Last Name*:</label>
+                    <input type="text" id="lname" required><br><br>
+                    <label for ="email">Email Address*: </label>
+                    <input type="text" id = "email" required><br><br>
+                    <label for="phone">Phone number: </label>
+                    <input type="text" id = "phone"><br><br>
+                    <label for="discord">Discord Name: </label>
+                    <input type="text" id = "discord"><br><br>
+                    <label for="slack">Slack: </label>
+                    <input type="text" id = "slack"><br><br>
+                    <label for ="interest">Why are you reaching out?*:</label>
+                    <select name="interest" id="interest" required>
+                        <option value="">Choose one of the following</option>
+                        <option value="project">Interested in working on a project.</option>
+                        <option value="talk">Wanted to simply talk.</option>
+                        <option value="gaming">Play some games.</option>
+                        <option value="other">Other.</option>
+                    </select><br><br>
+                    <input type="submit" value = "Submit">
+            </form>
+        </fieldset>
+    </div>
 </body>
 </html>
