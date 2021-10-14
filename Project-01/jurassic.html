@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/jurassic.css">
+    <title>Jurassic Experience</title>
+</head>
+<body>
+    <div>
+        <header>
+            <h1>Welcome to Jurassic Park</h1>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                    <li><a href="jurassic.html">Jurassic Experience</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <br>
+    <div>
+        <fieldset>
+        <img src="images/jurassic_park_entrance.jpeg" alt="jpe"><br><br>
+        <p>Welcome to the Jurassic Park page. This is a project I am developing.
+            My goal is to bring Jurassic Park into the real world. However, to accomplish this, 
+            we need dinosaurs. We already have a couple of dinosaurs ready but I need to know
+            what others people would like to see. So if you are interested in demoing Jurassic Park when it 
+            opens, please fill out the following form. 
+        </p>
+        </fieldset>
+    </div>
+    <div>
+        <form action="/" method = "get">
+            <label for = "fname">First Name*:</label>
+            <input type="text" id="fname" required><br>
+            <label for = "lname">Last Name*:</label>
+            <input type="text" id="lname" required><br>
+            <label>Email Address*: </label>
+            <input type="text" required><br>
+            <p>Choose which of these dinosaurs is your favorite*:</p>
+            <input type="radio" id="trex">
+            <label for = "trex">Tyrannosaurus Rex</label>
+            <input type="radio" id="tri">
+            <label for = "tri">Triceratops</label>
+            <input type="radio" id="spino">
+            <label for = "spino">Spinosaurus</label>
+            <input type="radio" id="brachio">
+            <label for = "brachio">Brachiosaurus</label>
+            <input type="radio" id="stego">
+            <label for = "stego">Stegosaurus</label><br><br>
+            <label>T-Shirt Size:</label>
+            <select name="shirt" id="shirt" required>
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+                <option value="xl">XL</option>
+                <option value="xxl">XXL</option>
+            </select><br><br>
+            <input type="submit" value = "Submit">
+        </form>
+    </div>
+    
+</body>
+</html>

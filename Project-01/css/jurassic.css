@@ -1,0 +1,32 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #444;
+}
+
+li {
+    float: left;
+}
+
+li a { 
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 30px;
+    text-decoration: none;
+}
+
+body { 
+    background-color: lavender;
+    text-align: center;
+}
+
+fieldset {
+    width: 100px;
+    text-align: center;
+    margin: auto;
+    border-style: none;
+    border-color:blueviolet;
+}
