@@ -1,0 +1,154 @@
+* {
+    font-family: sans-serif;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+  }
+
+  .container .item {
+      border-style: none;
+  }
+  
+  .container .item-1 {
+    order: 1;
+    flex: 1;
+    text-align: center;
+    background: palegoldenrod;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    padding: 20px;
+    flex-basis: 33%;
+  }
+
+  .container .item-2 {
+    order: 2;
+    flex: 1;
+    text-align: center;
+    background: tomato;
+    border: 0px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    padding: 20px;
+    flex-basis: 33%;
+  }
+
+  .container .item-3 {
+    order: 3; 
+    flex: 1;
+    text-align: center;
+    background: palegoldenrod;
+    border: 0px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    padding: 20px;
+    flex-basis: 33%;
+  }
+
+  .container .item-4 {
+    order: 4; 
+    flex: 1;
+    text-align: center;
+    background: tomato;
+    border: 0px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    padding: 20px;
+    flex-basis: 33%;
+  }
+
+  .container .item-5 {
+    order: 5;
+    flex: 1;
+    text-align: center;
+    background: palegoldenrod;
+    border: 0px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    padding: 20px;
+    flex-basis: 33%;
+  }
+
+  .container .item-6 {
+    order: 6;
+    flex: 1;
+    text-align: center;
+    background: tomato;
+    border: 0px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    padding: 20px;
+    flex-basis: 33%;
+  }
+
+  .container .item-7 {
+    order: 7;
+    flex: 1;
+    text-align: center;
+    background: palegoldenrod;
+    border: 0px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    padding: 20px;
+    flex-basis: 33%;
+  }
+
+  .container .item-8 {
+    order: 8;
+    flex: 1;
+    text-align: center;
+    background: tomato;
+    border: 0px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    padding: 20px;
+    flex-basis: 33%;
+  }
+
+  .container .item-9 {
+    order: 9;
+    flex: 1;
+    text-align: center;
+    background: palegoldenrod;
+    border: 0px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    padding: 20px;
+    flex-basis: 33%;
+  }
+
+  .container .item-10 {
+    order: 10;
+    flex: 1;
+    text-align: center;
+    background: tomato;
+    border: 0px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    padding: 20px;
+    flex-basis: 33%;
+  }
+
+
+
+  @media (max-width: 768px) {
+    .container .item{
+        min-width: 100%;
+    }
+    .container { 
+        flex-direction: column-reverse;
+    }
+  }
+
+  @media (min-width: 769px) { 
+      .container .item{
+          min-width: 33%;
+      }
+  }
