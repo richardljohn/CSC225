@@ -8,6 +8,13 @@
     height: 100vh;
 } */
 
+.hero { 
+    background-image: linear-gradient(rgba(0,0,0,.4), rgba(51, 50, 0, 0)), url(/images/hero.jpeg);
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+}
+
 .product-img { 
     height: 600px
 }
