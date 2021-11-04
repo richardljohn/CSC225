@@ -2,3 +2,12 @@
     font-family: Nunito;
     font-size: 30px;
 }
+
+.subtotal { 
+    font-size: 30px;
+}
+
+.cart-item { 
+    height: 400px;
+    width: 100px;
+}
